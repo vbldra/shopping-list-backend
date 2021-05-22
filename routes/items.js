@@ -1,9 +1,23 @@
 var express = require('express');
 var router = express.Router();
 
-/* GET items listing. */
-router.get('/', function(req, res, next) {
-  res.send('respond with a resource');
-});
+const {
+    getItems,
+    getItem,
+    updateItem,
+    deleteItem,
+    addItem
+  } = require("../controllers/itemController");
+
+router
+.route("/")
+.get(getItems)
+.post(addItem);
+
+router
+.route("/:id")
+.get(getItem)
+.delete(deleteItem)
+.put(updateItem);
 
 module.exports = router;
