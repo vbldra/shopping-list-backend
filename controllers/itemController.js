@@ -9,15 +9,15 @@ exports.getItems = async (req, res, next) => {
     }
 };
 
-exports.getItem = async (req, res, next) => {
-    try {
-        const item = await Item.findById(req.params.id)
-        if (!item) throw new Error("Cannot find item with id: ", req.params.id);
-        res.status(200).send(item);
-    } catch (e) {
-        next(e);
-    }
-};
+// exports.getItem = async (req, res, next) => {
+//     try {
+//         const item = await Item.findById(req.params.id)
+//         if (!item) throw new Error("Cannot find item with id: ", req.params.id);
+//         res.status(200).send(item);
+//     } catch (e) {
+//         next(e);
+//     }
+// };
 
 exports.deleteItem = async (req, res, next) => {
     try {

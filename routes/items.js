@@ -16,7 +16,7 @@ router
 
 router
 .route("/:id")
-.get(getItem)
+// .get(getItem)
 .delete(deleteItem)
 .put(updateItem);
 

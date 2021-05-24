@@ -10,6 +10,12 @@ const ItemSchema = new Schema({
       type: Boolean,
       required: true,
       default: true
+  },
+  priority: {
+      type: Number,
+      min: 1,
+      max: 5,
+      default: 5
   }
 });
 
