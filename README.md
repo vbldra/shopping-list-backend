@@ -1,7 +1,7 @@
 # Backend for Grocery shopping list
 
 
-## Check my [🥐 Grocery shopping list](https://link_will_be_here)
+## Check my [🥐 Grocery shopping list](https://vbldra.github.io/shopping-list-front/)
 
 ## Basic functionality
 - Add new 🥐 to buy
