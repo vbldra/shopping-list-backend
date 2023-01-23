@@ -19,4 +19,4 @@ Build using React, scss
 
 [Code](https://github.com/vbldra/shopping-list-backend)
 
-Build using Node.js, Express.js, MongoDB (mongoose). Deployed on Heroku
+Build using Node.js, Express.js, MongoDB (mongoose). Deployed on [Render](https://render.com/)
